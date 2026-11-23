@@ -1,0 +1,10 @@
+{"agent_id": "57bdaa07-9b6a-4484-a6a8-7425f9cad87a", "message_id": "7459ad7d-4ac9-4724-9394-2cacc564a7e5", "created_at": 1795473472, "input_tokens": 2145406, "output_tokens": 16358, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "8353fe1c-8358-4eea-93a6-b071d91bd535", "created_at": 1795477149, "input_tokens": 308474, "output_tokens": 9856, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "d575d724-d4f9-d4a6-4ef0-3f3a3907a735", "created_at": 1795477183, "input_tokens": 161229, "output_tokens": 348, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "8bad7803-aa0a-17ea-05a5-b41c4638a224", "created_at": 1795477197, "input_tokens": 162557, "output_tokens": 212, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "ba6e4cdf-d09a-c92d-0e96-e0cc0a965342", "created_at": 1795477268, "input_tokens": 164018, "output_tokens": 275, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "3c7209d3-9c11-4943-8e49-603b1d0cd7ca", "created_at": 1795477287, "input_tokens": 165722, "output_tokens": 287, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "c37e7a4b-2796-1652-50e1-36c38bf790f2", "created_at": 1795477291, "input_tokens": 167236, "output_tokens": 267, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "f6f1477c-2752-6744-a4e1-7e151d525184", "created_at": 1795477293, "input_tokens": 168990, "output_tokens": 288, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "5015d558-e63a-5838-cc18-a4969f3f29c8", "created_at": 1795477307, "input_tokens": 170644, "output_tokens": 332, "model": "ipnext/avocado-5.17-v2"}
+{"agent_id": "d388ec7a-8fe2-4be3-abe4-8b33d571bcbb", "message_id": "e492ef92-9859-864d-7601-3350b2fd466d", "created_at": 1795477342, "input_tokens": 172596, "output_tokens": 393, "model": "ipnext/avocado-5.17-v2"}

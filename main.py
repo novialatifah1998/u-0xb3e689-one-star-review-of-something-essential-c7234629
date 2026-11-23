@@ -25,7 +25,18 @@ LINE = (
 # crowded ones; the toothpaste tube is the unclaimed one.
 
 # Gate the judge's rule at build time: the line must stay within 1-160 chars.
-assert 1 <= len(LINE) <= 160, "entry line outside the 1-160 char gate"
+# One source of truth for the gate, used both at import and after read-back.
+GATE_MIN = 1
+GATE_MAX = 160
+
+
+def validate(line: str) -> str:
+    assert GATE_MIN <= len(line) <= GATE_MAX, "entry line outside the 1-160 char gate"
+    assert line.strip(), "entry line must not be only whitespace"
+    return line
+
+
+validate(LINE)
 
 
 def main() -> None:
@@ -35,7 +46,7 @@ def main() -> None:
     target.write_text(LINE, encoding="utf-8")
     written = target.read_text(encoding="utf-8")
     assert written == LINE, "entry.txt read-back does not match the gated line"
-    assert 1 <= len(written) <= 160, "written entry outside the 1-160 char gate"
+    validate(written)
 
 
 if __name__ == "__main__":
